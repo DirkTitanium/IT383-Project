@@ -255,7 +255,7 @@ class HomepageEdit:
         imagecounter = 0
         letters = [let1, let2, let3, let4, let5, let6, let7]
         images = [image1, image2, image3, image4, image5, image6]
-        formats = [".png", ".jpeg", ".jpg", ".bmp"]
+        formats = ["png", "jpeg", "jpg", "bmp"]
 
         for x in letters:
             lettercounter += 1
@@ -265,12 +265,12 @@ class HomepageEdit:
 
         for image in images:
             lettercounter += 1
-            if "------------------->" != image:
-                for type in formats:
-                    if type not in image:
-                        showerror("Wallpaper{0}error".format(str(imagecounter)), 'Must be a supported image file')
-                        return
-                    else: continue
+            if "------------------->" not in image:
+                newimage = image.split(".")
+                if newimage[1] not in formats:                        
+                    showerror("Wallpaper{0}error".format(str(imagecounter)), 'Must be a supported image file')
+                    return
+                else: continue
             else: continue
 
         homepageparser.wallpaperParser(image1, image2, image3, image4, image5, image6)

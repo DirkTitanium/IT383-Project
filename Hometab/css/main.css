@@ -270,7 +270,7 @@ body, html {
 }
 
 .cb-slideshow li:nth-child(1) span { 
-    /*parser*/  background-image: url('../img/1.jpg'); /*image1*/
+    /*parser*/  background-image: url('C:/Users/x71542/Pictures/download_20140811_082158.jpeg'); /*image1*/
 }
 .cb-slideshow li:nth-child(2) span { 
   /*parser*/  background-image: url('../img/2.jpg'); /*image2*/
