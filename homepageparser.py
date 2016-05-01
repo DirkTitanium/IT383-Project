@@ -26,61 +26,61 @@ def bookmarkParser(web1, web2, web3, web4, web5, web6, web7, let1, let2, let3, l
             if "<!--bookmark2-->" in line:
                 if web2 == "example.com" and let2 == "*" and color2 == "gray":
                     data.write(
-                        '           <div class="wcircle-menu-item" style="background-color:#2ecc71;border-radius:50%;padding:15px;width:20px;height:20px;"><a href="https://www.google.com">*</a></div><!--parser--><!--bookmark1-->\n')
+                        '           <div class="wcircle-menu-item" style="background-color:#2ecc71;border-radius:50%;padding:15px;width:20px;height:20px;"><a href="https://www.google.com">*</a></div><!--parser--><!--bookmark2-->\n')
                 else:
                     if "https://" not in web2:
                         web2 = "https://" + web2
-                    bookmark = '            <div class="wcircle-menu-item" style="background-color:' + color2 + ';border-radius:50%;padding:15px;width:20px;height:20px;"><a href="' + web2 + '">' + let2 + '</a></div><!--parser--><!--bookmark1-->\n'
+                    bookmark = '            <div class="wcircle-menu-item" style="background-color:' + color2 + ';border-radius:50%;padding:15px;width:20px;height:20px;"><a href="' + web2 + '">' + let2 + '</a></div><!--parser--><!--bookmark2-->\n'
                     data.write(bookmark)
 
             if "<!--bookmark3-->" in line:
                 if web3 == "example.com" and let3 == "*" and color3 == "gray":
                     data.write(
-                        '           <div class="wcircle-menu-item" style="background-color:#2ecc71;border-radius:50%;padding:15px;width:20px;height:20px;"><a href="https://www.google.com">*</a></div><!--parser--><!--bookmark1-->\n')
+                        '           <div class="wcircle-menu-item" style="background-color:#2ecc71;border-radius:50%;padding:15px;width:20px;height:20px;"><a href="https://www.google.com">*</a></div><!--parser--><!--bookmark3-->\n')
                 else:
                     if "https://" not in web3:
                         web3 = "https://" + web3
-                    bookmark = '            <div class="wcircle-menu-item" style="background-color:' + color3 + ';border-radius:50%;padding:15px;width:20px;height:20px;"><a href="' + web3 + '">' + let3 + '</a></div><!--parser--><!--bookmark1-->\n'
+                    bookmark = '            <div class="wcircle-menu-item" style="background-color:' + color3 + ';border-radius:50%;padding:15px;width:20px;height:20px;"><a href="' + web3 + '">' + let3 + '</a></div><!--parser--><!--bookmark3-->\n'
                     data.write(bookmark)
 
             if "<!--bookmark4-->" in line:
                 if web4 == "example.com" and let4 == "*" and color4 == "gray":
                     data.write(
-                        '           <div class="wcircle-menu-item" style="background-color:#2ecc71;border-radius:50%;padding:15px;width:20px;height:20px;"><a href="https://www.google.com">*</a></div><!--parser--><!--bookmark1-->\n')
+                        '           <div class="wcircle-menu-item" style="background-color:#2ecc71;border-radius:50%;padding:15px;width:20px;height:20px;"><a href="https://www.google.com">*</a></div><!--parser--><!--bookmark4-->\n')
                 else:
                     if "https://" not in web4:
                         web4 = "https://" + web4
-                    bookmark = '            <div class="wcircle-menu-item" style="background-color:' + color4 + ';border-radius:50%;padding:15px;width:20px;height:20px;"><a href="' + web4 + '">' + let4 + '</a></div><!--parser--><!--bookmark1-->\n'
+                    bookmark = '            <div class="wcircle-menu-item" style="background-color:' + color4 + ';border-radius:50%;padding:15px;width:20px;height:20px;"><a href="' + web4 + '">' + let4 + '</a></div><!--parser--><!--bookmark4-->\n'
                     data.write(bookmark)
 
             if "<!--bookmark5-->" in line:
                 if web5 == "example.com" and let5 == "*" and color5 == "gray":
                     data.write(
-                        '           <div class="wcircle-menu-item" style="background-color:#2ecc71;border-radius:50%;padding:15px;width:20px;height:20px;"><a href="https://www.google.com">*</a></div><!--parser--><!--bookmark1-->\n')
+                        '           <div class="wcircle-menu-item" style="background-color:#2ecc71;border-radius:50%;padding:15px;width:20px;height:20px;"><a href="https://www.google.com">*</a></div><!--parser--><!--bookmark5-->\n')
                 else:
                     if "https://" not in web5:
                         web5 = "https://" + web5
-                    bookmark = '            <div class="wcircle-menu-item" style="background-color:' + color5 + ';border-radius:50%;padding:15px;width:20px;height:20px;"><a href="' + web5 + '">' + let5 + '</a></div><!--parser--><!--bookmark1-->\n'
+                    bookmark = '            <div class="wcircle-menu-item" style="background-color:' + color5 + ';border-radius:50%;padding:15px;width:20px;height:20px;"><a href="' + web5 + '">' + let5 + '</a></div><!--parser--><!--bookmark5-->\n'
                     data.write(bookmark)
 
             if "<!--bookmark6-->" in line:
                 if web6 == "example.com" and let6 == "*" and color6 == "gray":
                     data.write(
-                        '           <div class="wcircle-menu-item" style="background-color:#2ecc71;border-radius:50%;padding:15px;width:20px;height:20px;"><a href="https://www.google.com">*</a></div><!--parser--><!--bookmark1-->\n')
+                        '           <div class="wcircle-menu-item" style="background-color:#2ecc71;border-radius:50%;padding:15px;width:20px;height:20px;"><a href="https://www.google.com">*</a></div><!--parser--><!--bookmark6-->\n')
                 else:
                     if "https://" not in web6:
                         web6 = "https://" + web6
-                    bookmark = '            <div class="wcircle-menu-item" style="background-color:' + color6 + ';border-radius:50%;padding:15px;width:20px;height:20px;"><a href="' + web6 + '">' + let6 + '</a></div><!--parser--><!--bookmark1-->\n'
+                    bookmark = '            <div class="wcircle-menu-item" style="background-color:' + color6 + ';border-radius:50%;padding:15px;width:20px;height:20px;"><a href="' + web6 + '">' + let6 + '</a></div><!--parser--><!--bookmark6-->\n'
                     data.write(bookmark)
 
             if "<!--bookmark7-->" in line:
                 if web7 == "example.com" and let7 == "*" and color7 == "gray":
                     data.write(
-                        '           <div class="wcircle-menu-item" style="background-color:#2ecc71;border-radius:50%;padding:15px;width:20px;height:20px;"><a href="https://www.google.com">*</a></div><!--parser--><!--bookmark1-->\n')
+                        '           <div class="wcircle-menu-item" style="background-color:#2ecc71;border-radius:50%;padding:15px;width:20px;height:20px;"><a href="https://www.google.com">*</a></div><!--parser--><!--bookmark7-->\n')
                 else:
                     if "https://" not in web7:
                         web7 = "https://" + web7
-                    bookmark = '            <div class="wcircle-menu-item" style="background-color:' + color7 + ';border-radius:50%;padding:15px;width:20px;height:20px;"><a href="' + web7 + '">' + let7 + '</a></div><!--parser--><!--bookmark1-->\n'
+                    bookmark = '            <div class="wcircle-menu-item" style="background-color:' + color7 + ';border-radius:50%;padding:15px;width:20px;height:20px;"><a href="' + web7 + '">' + let7 + '</a></div><!--parser--><!--bookmark7-->\n'
                     data.write(bookmark)
 
 
