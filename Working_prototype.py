@@ -255,7 +255,7 @@ class HomepageEdit:
         imagecounter = 0
         letters = [let1, let2, let3, let4, let5, let6, let7]
         images = [image1, image2, image3, image4, image5, image6]
-        formats = [".png", ".jpeg", ",jpg", ".bmp"]
+        formats = [".png", ".jpeg", ".jpg", ".bmp"]
 
         for x in letters:
             lettercounter += 1
