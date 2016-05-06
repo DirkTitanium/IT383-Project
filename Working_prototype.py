@@ -66,7 +66,7 @@ class HomepageEdit:
         Label(rightSide, text="6th Wallpaper").grid(row=6, column=0)
         self.image6 = Entry(rightSide)
         self.image6.grid(row=6, column=1)
-        Button(rightSide, text="Pick an Image", command=self.imageLocation5).grid(row=6, column=2)
+        Button(rightSide, text="Pick an Image", command=self.imageLocation6).grid(row=6, column=2)
         self.image6.delete(0, END)
         self.image6.insert(0, "------------------->")
 
@@ -220,6 +220,11 @@ class HomepageEdit:
         filename = askopenfilename()
         self.image5.delete(0, END)
         self.image5.insert(0, str(filename))
+
+    def imageLocation6(self):
+        filename = askopenfilename()
+        self.image6.delete(0, END)
+        self.image6.insert(0, str(filename))
 
     # ----- Save function -----#
 
